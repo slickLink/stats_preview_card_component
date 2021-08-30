@@ -22,7 +22,7 @@ body {
 }
 
 .centered {
-    margin: 12em auto;
+    margin: 10em auto;
 }
 
 .content-wrapper {
@@ -43,7 +43,8 @@ body {
 
         img {
             width: inherit;
-            opacity: 0.7;
+            opacity: 0.8;
+            filter: grayscale(100%);
             mix-blend-mode: multiply;
             border-radius: inherit;
         }
@@ -61,7 +62,7 @@ body {
         .card-info {
             h1 {
                 font-size: 1.75em;
-                margin-top: 1.25em;
+                margin-top: 1em;
                 margin-bottom: 0;
 
                 span {
